@@ -91,6 +91,4 @@ virtualenv==20.0.13
 watchdog==0.10.2
 wcwidth==0.1.8
 Werkzeug==1.0.1
-windows-curses==2.1.0
 wrapt==1.11.2
-zipp==2.1.0
