@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Enriqueta:wght@500&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Enriqueta';
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+    background-color: #F0FFFF;
+}
+
+header {
+    display : inline-block;
+    width : 100%;
+    background-image: linear-gradient(to right,#43cae9 , #38f9d7);
+
+}
+
+header #logo{
+    width: 30% auto;
+    text-align: center;
+    background-image: linear-gradient(to right,#43cae9 , #38f9d7);
+    color : #191970;
+    font-size : 20px;
+}
+
+header nav {
+    background-image: linear-gradient(to right,#43cae9 , #38f9d7);
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+
+}
+
+header nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 50px;
+    text-align: center;
+}
+
+header nav a {
+    font-size: 23px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+    padding : 15px;
+}
+    
+header nav a:hover {
+    background : #63E9FC;
+    transition : 0.5s;
+
+}
+
+main {
+        padding: 20px;
+        overflow: auto;
+        margin : 10px;
+}
+
+#content {
+    float: left;
+    width: 75%;
+}
+
+
+main img{
+    width : 100%;
+}
+main #content article{
+    margin : 30px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+}
+
+main #content article p{
+    text-align: justify;
+    text-indent: 2em;
+}
+
+main #content article h1{
+    text-align: center;
+    font-size: 40px;
+    background: -webkit-linear-gradient(#43cae9, #38f9d7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+main #content article img{
+    padding : 8px;
+    border-radius: 20px;
+}
+ 
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding : 5px;
+  }
+
+.sticky + .content {
+    padding-top: 60px;
+  }
+
+footer {
+    margin-top: 20px;
+    padding: 20px;
+    background-image: linear-gradient(to right,#43cae9 , #38f9d7);
+}
+
+footer p {
+    color: white;
+    text-align: center;
+}
+
+aside  {
+    float: right;
+    width: 25%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+    padding-left: 20px;
+    padding : 20px;
+    margin-top: 30px;
+}
+
+aside h2{
+    text-align: center;
+}
+
+aside p{
+    text-align: center;
+    font-size: 28px;
+}
+
+aside .general {
+    border-radius: 20px;
+    
+}
+
+aside .general p{
+    color : #191970;
+}
+
+aside .general img{
+    border-radius: 20px;
+}
+
+aside section h3{
+    text-align: center;
+}
+
+aside section a{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1000px) {
+    #content,
+    aside {
+        width: 100%;
+    	padding: 0;
+    }
+
+    header #logo img {
+        width : 80%;
+    }
+
+    header #logo h2 {
+        font-size: 30px;
+    }
+
+    main #content {
+        width: 100%;
+    }
+}
