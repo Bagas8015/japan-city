@@ -71,7 +71,7 @@ python-engineio==3.13.0
 python-socketio==4.6.0
 pytz==2019.3
 PyWavelets==1.1.1
-PyYAML==5.1
+PyYAML==5.4
 requests==2.22.0
 requests-toolbelt==0.9.1
 responses==0.10.9
