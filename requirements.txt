@@ -20,7 +20,7 @@ eventlet==0.25.2
 fake-useragent==0.1.11
 filelock==3.0.12
 Flask==1.1.2
-Flask-Cors==3.0.8
+Flask-Cors==3.0.9
 Flask-RESTful==0.3.8
 Flask-SocketIO==4.3.0
 future==0.18.2
