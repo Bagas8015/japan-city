@@ -16,7 +16,7 @@ decorator==4.4.1
 distlib==0.3.0
 dnspython==1.16.0
 emoji==0.5.4
-eventlet==0.25.2
+eventlet==0.31.0
 fake-useragent==0.1.11
 filelock==3.0.12
 Flask==1.1.2
